@@ -71,6 +71,7 @@ int Find(Node *hashTable, int n, int x)
         return t->index;
 }
 
+//beyza
 vector<int> Solution::twoSum(const vector<int> &A, int B) {
     vector<int> result;
     if(A.size() < 2)
