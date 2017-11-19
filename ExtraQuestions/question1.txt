@@ -1,0 +1,13 @@
+Consider this encoding system:
+'A' —> '1'
+'B' —> '2'
+.
+.
+.
+'Z' —> '26'
+So 'AB' is represented by '12'
+'AB' —> '12'
+When an encoded string is given, return the number of possible decoded values:
+"11" —> "AA"
+        —> "K"
+        —> return 2
